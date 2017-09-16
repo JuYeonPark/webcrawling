@@ -9,7 +9,6 @@ soup=BeautifulSoup(c,"html.parser")
 all=soup.find("tbody")
 all2=all.find_all("tr",{"class":""})
 
-
 for item in all2:
     professor=item.find("td",{"class":"professor"}).text
     lectureName=item.find("td",{"class":"lecture"}).text

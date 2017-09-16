@@ -4,17 +4,48 @@ from datetime import datetime
 from bkcharts import Scatter, output_file, show
 
 
+def crawlingComment(url,beginPage,endPage):
 
-def crawlingComment():
-    # contents":"
+    l=[]
+    d = {}
+    now = datetime.now()
 
-    url="https://apis.naver.com/commentBox/cbox/web_naver_list_jsonp.json?ticket=news&templateId=default_politics&pool=cbox5&_callback=jQuery17005007762565150675_1503340099957&lang=ko&country=KR&objectId=news001%2C0009488770&categoryId=&pageSize=20&indexSize=10&groupId=&listType=OBJECT&page=2&sort=FAVORITE&current=1042698005&prev=1042485105&includeAllStatus=true&_=1503340179475"
-    headers = {'referer': 'http://news.naver.com/main/read.nhn?mode=LPOD&mid=sec&oid=001&aid=0009488770&isYeonhapFlash=Y&rc=N&m_view=1&includeAllCount=true'}
-    jsons = requests.get(url,headers=headers)
-    contents=str(BeautifulSoup(jsons.content,"html_parser"))
-    soup=contents.split("contents")
-    print(soup)
+    # total page processing
 
+    for pageCount in range(int(beginPage),int(endPage)):
+
+        url="https://apis.naver.com/commentBox/cbox/web_naver_list_jsonp.json?ticket=news&templateId=default_politics&pool=cbox5&_callback=jQuery17005007762565150675_1503340099957&lang=ko&country=KR&objectId=news003%2C0008136468&categoryId=&pageSize=20&indexSize=10&groupId=&listType=OBJECT&page=" + str(pageCount) + "&sort=FAVORITE&current=1042698005&prev=1042485105&includeAllStatus=true&_=1503340179475"
+        headers = {'referer': 'http://news.naver.com/main/read.nhn?mode=LPOD&mid=sec&oid=001&aid=0008136468&isYeonhapFlash=Y&rc=N&m_view=1&includeAllCount=true'}
+        jsons = requests.get(url,headers=headers)
+        contents=str(BeautifulSoup(jsons.content,"html.parser"))
+        l=contents.split('"contents":"')
+
+        commentCount=l[0].split('count":{"comment":')[1].split(",")[0]
+        replyCount=l[0].split('"reply":')[1].split(",")[0]
+
+
+        for i in range(0,len(l)):
+
+            if(i>1):
+
+                commentContent=l[i].split('","userIdNo":"')[0]
+
+                if commentContent is not "":
+
+                    commentCode=l[i].split('userIdNo":"')[1].split('"')[0]
+                    commentUser=l[i].split('userName":"')[1].split('"')[0]
+
+                    d["commentUser"]=commentUser
+                    d["commentCode"]=commentCode
+                    d["commentContent"]=commentContent
+                    print(commentContent + " / " + commentUser + " / " + commentCode)
+                    l.append(d)
+
+        print(l)
+    df = pandas.DataFrame(l)
+    df.to_csv('%s-%s-%s-%s-%s-%s.csv' % (now.year, now.month, now.day, now.hour, now.minute, now.second),
+                  encoding='utf-8-sig', index=False)
+    print("Success Get DataFIle and Save Data")
 
 
 def crawlingData(date, pageCount):
@@ -172,5 +203,5 @@ def mainSetting():
         else :
             print("command error")
 
-crawlingComment()
+crawlingComment(9,1,5)
 # mainSetting()

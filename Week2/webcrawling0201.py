@@ -1,4 +1,3 @@
-
 import requests
 from bs4 import BeautifulSoup
 r=requests.get("http://news.naver.com/main/list.nhn?mode=LSD&mid=sec&sid1=100")
