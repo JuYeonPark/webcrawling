@@ -35,9 +35,10 @@
 **1주차 (기초)**
 
 - 깃허브 사용법 : 스터디를 하기위한 아주 간단한 깃허브 사용법
-- 파이썬 설치
+- 파이썬 설치 : [pdf 파일(week1 에서 다운로드 가능)](webcrawling/Week1/pythonInstall.pdf)
 - 파이썬 기초문법 : 변수 타입, 조건문, 반복문
 - 동영상강의 01 : [Beautifulsoup 라이브러리의 기초 / 정적 페이지 파싱](https://youtu.be/QLf-pDoJvjQ)
+- 1주차 과제 : 준비중
 
 **2주차 (Beautifulsoup 라이브러리 사용법)**
 
@@ -48,13 +49,16 @@
 - 동영상 강의 03-3 : [Beautifulsoup 라이브러리의 기초  / 네이버뉴스크롤링 프로그램 버젼 2](https://youtu.be/DTovorjABOk)
 - 동영상 강의 03-4 : [Beautifulsoup 라이브러리의 기초 / 네이버뉴스크롤링 프로그램 버젼 2](https://youtu.be/H80LB8cLGI4)
 - 동영상 강의 04-1 : [Beautifulsoup 라이브러리의 기초 + 데이터시각화(word cloud) / 네이버뉴스크롤링프로그램 버젼 3](https://youtu.be/zxV2LZ5LIuk)
-- 동영상 강의 04-2 : 데이터시각화/데이터분석 심화
+- 동영상 강의 04-2 : Beautifulsoup 라이브러리의 기초 + 데이터시각화(word cloud) / 네이버뉴스크롤링프로그램 버젼 3
+- 동영상 강의 04-3 : 데이터시각화/데이터분석 심화
+- 2주차 과제 : 준비중
 
 **3주차 (Selenium 라이브러리 사용법)**
 
 - 동영상 강의 05 : Selenium 라이브러리의 기초
 - 동영상 강의 06-1 : Selenium 라이브러리의 기초 
 - 준비중
+- 3주차 과제 : 준비중
 
 ------
 
