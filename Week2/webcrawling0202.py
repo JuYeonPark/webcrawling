@@ -66,6 +66,7 @@ def loadFile(fileName):
         content = df["Content"]
         title = df["Title"]
         company = df["Company"]
+        print(company)
 
         print("csv FIle Load Success")
     else:
