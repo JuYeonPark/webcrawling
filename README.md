@@ -34,7 +34,7 @@
 
 **1주차 (기초)**
 
-- 스터디/강의 참여/활용하기 : [pdf 파일(week1 에서 다운로드 가능)](webcrawling/Week1/studyintro.pdf)
+- 스터디/강의 참여/활용하기 : [pdf 파일(week1 에서 다운로드 가능)](https://github.com/etilelab/webcrawling/blob/master/Week1/studyintro.pdf)
 - 파이썬 설치 : [pdf 파일(week1 에서 다운로드 가능)](webcrawling/Week1/pythonInstall.pdf)
 - 파이썬 기초문법 : 변수 타입, 조건문, 반복문
 - 동영상강의 01 : [Beautifulsoup 라이브러리의 기초 / 정적 페이지 파싱](https://youtu.be/QLf-pDoJvjQ)
