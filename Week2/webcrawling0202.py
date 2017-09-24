@@ -35,6 +35,7 @@ def crawlingData(date, pageCount):
                     contentTag.text.replace("\t", "").replace("\n", "").replace("\r", "").replace(",", "").replace('"',"").split("…")[0]
                     d["Company"] = contentTag.find("span", {"class": "writing"}).text
                     d["Date"] = contentTag.find("span", {"class": "date"}).text
+                    print(d["Content"])
                 except:
                     d["Content"] = "None"
                     d["Company"] = "None"
@@ -81,7 +82,7 @@ def checkFileName(fileName):
 
     # 같은 경로에 csv 파일이 하나도 없다면 -1 리턴
     if len(glob2.glob("*.csv")) == 0:
-        print("No file found in this directory")
+        print("No file found in this diㅋㅋrectory")
         return -1
     else:
         # 사용자가 입력한 값이 all 이라면
