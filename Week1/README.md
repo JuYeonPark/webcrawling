@@ -8,6 +8,8 @@
 
 
 
+
+
 - 깃허브 사용법 : [스터디를 하기위한 아주 간단한 깃허브 사용법](https://github.com/etilelab/webcrawling/blob/master/Week1/studyintro.pdf)
 - 파이썬 설치 : [pdf 파일(week1 에서 다운로드 가능)](https://github.com/etilelab/webcrawling/blob/master/Week1/pythonInstall.pdf)
 - 파이썬 기초문법 : 변수 타입, 조건문, 반복문 
