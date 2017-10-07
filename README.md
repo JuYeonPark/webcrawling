@@ -22,28 +22,24 @@
 
 ------
 
-### 파이썬X웹크롤링 스터디 참가방법
+### 파이썬X웹크롤링 스터디 참가방법(모집마감)
 
-같이 즐겁게 공부할 분들을 모집하고 있어요~ 카카오 오픈채팅방에 들어오셔서 문의해주시면 됩니다.
+~~같이 즐겁게 공부할 분들을 모집하고 있어요~ 카카오 오픈채팅방에 들어오셔서 문의해주시면 됩니다.~~
 
-질문답변오픈카카오톡/스터디 참가신청 : https://open.kakao.com/o/g0lry8y
+~~질문답변오픈카카오톡/스터디 참가신청 : https://open.kakao.com/o/g0lry8y~~
 
-**스터디방법 :** 스터디 방법에 대한 문의는 위 오픈 채팅방에서 문의해주세요!
+~~**스터디방법 :** 스터디 방법에 대한 문의는 위 오픈 채팅방에서 문의해주세요!~~
 
 ------
 
+### 파이썬X웹크롤링 강의목록
+
 **1주차 (기초)**
 
-- 스터디/강의 참여/활용하기 : [pdf 파일(week1 에서 다운로드 가능)](https://github.com/etilelab/webcrawling/blob/master/Week1/studyintro.pdf)
 - 1주차 강의슬라이드 : [pdf 파일(Week1에서 다운로드 가능)](https://github.com/etilelab/webcrawling/blob/master/Week1/1주차%20강의슬라이드.pdf)
 - 파이썬 설치 : [pdf 파일(Week1에서 다운로드 가능)](https://github.com/etilelab/webcrawling/blob/master/Week1/pythonInstall.pdf)
 - 동영상강의 01 : [Beautifulsoup 라이브러리의 기초 / 정적 페이지 파싱](https://youtu.be/QLf-pDoJvjQ)
 
-**1주차 (스터디)**
-
-- 스터디/강의 참여/활용하기 : [pdf 파일(week1 에서 다운로드 가능)](https://github.com/etilelab/webcrawling/blob/master/Week1/studyintro.pdf)
-- 1주차 스터디 과제 : [practice01.pdf(Week1에서 다운로드 가능)](https://github.com/etilelab/webcrawling/blob/master/Week1/practice01.pdf)
-- 1주차 스터디 해설강의 : 준비중
 
 
 
@@ -67,9 +63,7 @@
 
 - 동영상 강의 04-1 : [Beautifulsoup 라이브러리의 기초 + 데이터시각화(word cloud) / 네이버뉴스크롤링프로그램 버젼 3](https://youtu.be/zxV2LZ5LIuk)
 
-- 동영상 강의 04-2 : Beautifulsoup 라이브러리의 기초 + 데이터시각화(word cloud) / 네이버뉴스크롤링프로그램 버젼 3
-
-- 동영상 강의 04-3 : 데이터시각화/데이터분석 심화
+- 동영상 강의 04-2 : [Beautifulsoup 라이브러리의 기초 + 데이터시각화(word cloud) / 네이버뉴스크롤링프로그램 버젼 3](https://www.youtube.com/watch?v=sAAf8QWT6BI)
 
   ​
 
@@ -81,9 +75,20 @@
 - 동영상 강의 06-1 : Selenium 라이브러리의 기초 
 
 
-
 ------
 
-### 기타알림
+### 파이썬X웹크롤링 스터디
 
-준비중
+#### 1주차 
+
+- 스터디/강의 참여/활용하기 : https://www.youtube.com/watch?v=AQozh9l01fY
+- 1주차 스터디 과제 : [practice01.pdf(Study/Week1에서 다운로드 가능)](https://github.com/etilelab/webcrawling/blob/master/Study/Week1/practice01.pdf)
+- 1주차 스터디 해설강의 : [스터디설명 및 문제소개](https://www.youtube.com/watch?v=AQozh9l01fY) / 스터디 문제해설
+
+#### 2주차
+
+- 2주차 스터디 과제 : pratice02.pdf(Study/Week2에서 다운로드 가능)
+
+- 2주차 스터디 해설강의 : 스터디문제해설 1 / 스터디 문제해설 2
+
+  ​
