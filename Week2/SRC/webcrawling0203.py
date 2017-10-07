@@ -18,22 +18,29 @@ def analyze(content):
     # 매게변수로 전달받은 content 를 string 형태로 변경하고
     # 명사형으로 바꾸어 nouns 라는 변수에 저장
     nouns=t.nouns(str(content))
+
+    # 더미데이터 제거
+    trash=["조선","연합뉴스","일보","중앙","기자","뉴스","헤럴드경제"]
+    for i in trash:
+        for j in nouns:
+            if i==j:
+                nouns.remove(i)
+
     ko=nltk.Text(nouns,name="분석")
 
-    # 저장 후 가장 빈도수가 높은 단어 100개를 뽑아 ranking 이라는 변수에 저장
+    #ranking이라는 변수를 사전형으로 변경
     ranking=ko.vocab().most_common(100)
-
-    # ranking이라는 변수를 사전형으로 변경
     tmpData=dict(ranking)
 
-    # 워드크라우드 설정
+    # 워드클라우드 설정
     wordcloud=WordCloud(font_path="/Library/Fonts/AppleGothic.ttf",relative_scaling=0.2,background_color="white",).generate_from_frequencies(tmpData)
 
-    # 만들어진 워드크라우드를 mataplotlib 를 통해 image 형태로 보여줌
+    #matplotlib 라이브러리를 통해 워드크라우드를 이미지 형식으로 보여줌
     plt.figure(figsize=(16,8))
     plt.imshow(wordcloud)
     plt.axis("off")
     plt.show()
+
 
 
 
@@ -156,7 +163,7 @@ def mainSetting():
             page = input("Enter your pageCount : ")
             crawlingData(date, page)
         elif kb == "loadAll":
-            loadFile("all")
+            loadFile("all",0)
         elif kb == "load":
             fileName = input("Enter your csv file name : ")
             loadFile(fileName,0)
