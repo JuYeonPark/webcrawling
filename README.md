@@ -20,15 +20,7 @@
 
 질문답변오픈카카오톡 : https://open.kakao.com/o/g0lry8y
 
-------
 
-### 파이썬X웹크롤링 스터디 참가방법(모집마감)
-
-~~같이 즐겁게 공부할 분들을 모집하고 있어요~ 카카오 오픈채팅방에 들어오셔서 문의해주시면 됩니다.~~
-
-~~질문답변오픈카카오톡/스터디 참가신청 : https://open.kakao.com/o/g0lry8y~~
-
-~~**스터디방법 :** 스터디 방법에 대한 문의는 위 오픈 채팅방에서 문의해주세요!~~
 
 ------
 
@@ -47,11 +39,9 @@
 
 - 2주차 강의슬라이드 : [pdf 파일(Week2에서 다운로드 가능)](https://github.com/etilelab/webcrawling/blob/master/Week2/2주차%20강의슬라이드.pdf)
 
-- 2주차 스터디 과제 : 준비중
-
 - 동영상 강의 02-1 : [Beautifulsoup 라이브러리의 기초 / 네이버뉴스크롤링 프로그램 버젼 1](https://youtu.be/IkZiDDFfJ88)
 
-- 동영상 강의 02-2 : [Beautifulsoup 라이브러리의 기초 / 네이버뉴스크롤링 프로그램 버젼1](https://youtu.be/BmQTdv3wF-U)
+- 동영상 강의 02-2 : [Beautifulsoup 라이브러리의 기초 / 네이버뉴스크롤링 프로그램 버젼 1](https://youtu.be/BmQTdv3wF-U)
 
 - 동영상 강의 03-1 : [Beautifulsoup 라이브러리의 기초 / 네이버뉴스크롤링 프로그램 버젼 2](https://youtu.be/YYGCbyrgNNk)
 
@@ -83,12 +73,12 @@
 
 - 스터디/강의 참여/활용하기 : https://www.youtube.com/watch?v=AQozh9l01fY
 - 1주차 스터디 과제 : [practice01.pdf(Study/Week1에서 다운로드 가능)](https://github.com/etilelab/webcrawling/blob/master/Study/Week1/practice01.pdf)
-- 1주차 스터디 해설강의 : [스터디설명 및 문제소개](https://www.youtube.com/watch?v=AQozh9l01fY) / 스터디 문제해설
+- 1주차 스터디 해설강의 : [스터디설명 및 문제소개](https://www.youtube.com/watch?v=AQozh9l01fY) / [1주차 스터디 문제해설](https://youtu.be/ClSH-dGiLo8) / [1주차 스터디 라이브코딩](https://youtu.be/V2gAIYzl568)
 
 #### 2주차
 
-- 2주차 스터디 과제 : pratice02.pdf(Study/Week2에서 다운로드 가능)
+- 2주차 스터디 과제 : [pratice02.pdf(Study/Week2에서 다운로드 가능)](https://github.com/etilelab/webcrawling/blob/master/Study/Week2/practice02.pdf)
 
-- 2주차 스터디 해설강의 : 스터디문제해설 1 / 스터디 문제해설 2
+- 2주차 스터디 해설강의 : 2주차 스터디 문제소개 / 2주차 스터디 문제해설 / 2주차 스터디 라이브코딩
 
   ​
